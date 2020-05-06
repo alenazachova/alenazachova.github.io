@@ -1,0 +1,108 @@
+body {
+    width:950px;
+    margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+img {
+    width:200px;
+    height:300px;
+    border-radius: 50%;
+    margin:30px;
+    margin-left:30px;
+    
+}
+
+header {
+    display: flex;
+    position: relative;
+    
+}
+
+h1 {
+    font-size: 80px;
+    position:absolute;
+    left:300px;
+    bottom:20px;
+    color:#444440;
+}
+
+.obecne {
+    border-left:8px solid gray;
+    margin-left:30px;
+}
+
+h2 {
+    margin-left:30px;
+    margin-top:20px;
+    font-size:20px;
+    color: #444440;
+
+}
+h3 {
+    font-size: 15px;
+    margin-left:20px;
+}
+.osobni{
+    margin-left:20px;
+}
+    
+
+ul,p {
+    line-height: 2;
+    font-size: 12px;
+}
+
+h4 {
+    margin-left:20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#444440;
+}
+a:hover {
+    color:black;
+}
+
+.obecne {
+    display: flex;
+}
+
+.jedna {
+display: flex;
+flex-direction: column;
+    
+}
+
+.dva {
+    display: flex;
+    flex-direction:column;
+    margin-left:90px;
+}
+
+
+
+h4 {
+    font-size:13px;
+}
+
+h3,h4 {
+    color:#444440;
+}
+
+.osobni p {
+    line-height: 1;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    margin-left: 0;
+}
+.kurzy {
+    margin-bottom: 0px;
+}
