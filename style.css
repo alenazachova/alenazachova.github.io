@@ -1,97 +1,102 @@
 body {
-    width:950px;
-    margin:0 auto;
+    width: 950px;
+    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
+
 img {
-    width:200px;
-    height:300px;
+    width: 200px;
+    height: 300px;
     border-radius: 50%;
-    margin:30px;
-    margin-left:30px;
-    
+    margin: 30px;
+    margin-left: 30px;
+}
+
+.together p {
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+.together2 p {
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+.personal p {
+    padding-left: 30px;
+    line-height: 1;
 }
 
 header {
     display: flex;
     position: relative;
-    
 }
 
 h1 {
     font-size: 80px;
-    position:absolute;
-    left:300px;
-    bottom:20px;
-    color:#444440;
+    position: absolute;
+    left: 300px;
+    bottom: 20px;
+    color: #444440;
 }
 
-.obecne {
-    border-left:8px solid #444440;
-    margin-left:30px;
+.general {
+    display: flex;
+    border-left: 8px solid #444440;
+    margin-left: 30px;
 }
 
 h2 {
-    margin-left:30px;
-    margin-top:20px;
-    font-size:20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
     color: #444440;
-
 }
+
 h3 {
     font-size: 15px;
-    margin-left:20px;
+    margin-left: 20px;
 }
-.osobni{
-    margin-left:20px;
-}
-    
 
-ul,p {
+ul,
+p {
     line-height: 2;
     font-size: 12px;
 }
 
 h4 {
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    color:#444440;
+    color: #444440;
 }
+
 a:hover {
-    color:black;
+    color: black;
 }
 
-.obecne {
+.first {
     display: flex;
+    flex-direction: column;
 }
 
-.jedna {
-display: flex;
-flex-direction: column;
-}
-
-.dva {
+.second {
     display: flex;
-    flex-direction:column;
-    margin-left:90px;
+    flex-direction: column;
+    margin-left: 90px;
 }
-
-
 
 h4 {
-    font-size:13px;
+    font-size: 13px;
+    margin-top: 0px;
 }
 
-h3,h4 {
-    color:#444440;
-}
-
-.osobni p {
-    line-height: 1;
+h3,
+h4 {
+    color: #444440;
 }
 
 div {
@@ -102,6 +107,11 @@ div {
 p {
     margin-left: 0;
 }
-.kurzy {
+
+.courses {
     margin-bottom: 0px;
+}
+
+.courses ul {
+    margin-top: 0;
 }
