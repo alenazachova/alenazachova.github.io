@@ -33,7 +33,7 @@ header {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 90px;
     position: absolute;
     left: 300px;
     bottom: 20px;
@@ -114,4 +114,8 @@ p {
 
 .courses ul {
     margin-top: 0;
+}
+
+.courses h2 {
+    margin-bottom: 5px;
 }
