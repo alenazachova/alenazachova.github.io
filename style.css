@@ -1,5 +1,6 @@
 body {
-    width: 950px;
+    width: 100%;
+    max-width: 950px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
@@ -12,42 +13,35 @@ img {
     margin-left: 30px;
 }
 
-.together p {
+h3 span {
     font-weight: normal;
-    padding-left: 5px;
-}
-
-.together2 p {
-    font-weight: normal;
-    padding-left: 5px;
+    margin-left: 5px;
+    font-size: 12px;
 }
 
 .personal p {
-    padding-left: 30px;
     line-height: 1;
 }
 
 header {
     display: flex;
-    position: relative;
 }
 
 h1 {
     font-size: 90px;
-    position: absolute;
-    left: 300px;
-    bottom: 20px;
     color: #444440;
 }
 
 .general {
     display: flex;
+    flex-wrap: wrap;
     border-left: 8px solid #444440;
-    margin-left: 30px;
+    padding: 0 30px;
+    margin-bottom: 100px;
+    margin-left: 5vw;
 }
 
 h2 {
-    margin-left: 30px;
     margin-top: 20px;
     font-size: 20px;
     color: #444440;
@@ -55,17 +49,12 @@ h2 {
 
 h3 {
     font-size: 15px;
-    margin-left: 20px;
 }
 
 ul,
 p {
     line-height: 2;
     font-size: 12px;
-}
-
-h4 {
-    margin-left: 20px;
 }
 
 a {
@@ -118,4 +107,40 @@ p {
 
 .courses h2 {
     margin-bottom: 5px;
+}
+
+.general ul {
+    padding-left: 0;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .second {
+        margin-left: 0;
+    }
+    h1 {
+        font-size: 40px;
+        margin-top: 0;
+    }
+    header {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:766px) and (min-width:574) {
+    .second {
+        margin-left: 0;
+    }
+    h1 {
+        font-size: 80px;
+        margin-top: 0;
+    }
+    header {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
