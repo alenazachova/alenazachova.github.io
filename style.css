@@ -27,14 +27,6 @@ header {
     display: flex;
 }
 
-header img {
-    margin-left: 5vw;
-}
-
-header h1 {
-    margin-left: 4vw;
-}
-
 h1 {
     font-size: 90px;
     color: #444440;
