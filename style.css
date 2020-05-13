@@ -27,6 +27,11 @@ header {
     display: flex;
 }
 
+header img,
+h1 {
+    margin-left: 5vw;
+}
+
 h1 {
     font-size: 90px;
     color: #444440;
@@ -123,20 +128,6 @@ h2 {
     }
     h1 {
         font-size: 40px;
-        margin-top: 0;
-    }
-    header {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width:766px) and (min-width:574) {
-    .second {
-        margin-left: 0;
-    }
-    h1 {
-        font-size: 80px;
         margin-top: 0;
     }
     header {
