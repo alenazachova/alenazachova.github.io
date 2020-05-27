@@ -27,6 +27,14 @@ header {
     display: flex;
 }
 
+.zajmy {
+    margin-bottom: 0;
+}
+
+.zajmy ul {
+    margin-top: 0;
+}
+
 h1 {
     font-size: 90px;
     color: #444440;
@@ -37,12 +45,11 @@ h1 {
     flex-wrap: wrap;
     border-left: 8px solid #444440;
     padding: 0 30px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     margin-left: 5vw;
 }
 
 h2 {
-    margin-top: 20px;
     font-size: 20px;
     color: #444440;
 }
@@ -76,6 +83,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     margin-left: 90px;
+    margin-bottom: 0;
 }
 
 h4 {
