@@ -27,10 +27,6 @@ header {
     display: flex;
 }
 
-.hobby {
-    margin-bottom: 0;
-}
-
 .hobby ul {
     margin-top: 0;
 }
@@ -45,7 +41,7 @@ h1 {
     flex-wrap: wrap;
     border-left: 8px solid #444440;
     padding: 0 30px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     margin-left: 5vw;
 }
 
