@@ -126,11 +126,21 @@ h2 {
         margin-left: 0;
     }
     h1 {
-        font-size: 40px;
+        font-size: 10vw;
         margin-top: 0;
+        display: flex;
+        align-items: center;
     }
     header {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width:520px) {
+    header {
         flex-wrap: wrap;
+    }
+    h1 br {
+        display: none;
     }
 }
