@@ -1,146 +1,147 @@
 body {
-    width: 100%;
-    max-width: 950px;
-    margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
-    width: 200px;
-    height: 300px;
-    border-radius: 50%;
-    margin: 30px;
-    margin-left: 30px;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  margin: 30px;
+  margin-left: 80px;
+  margin-top: 65px;
 }
 
 h3 span {
-    font-weight: normal;
-    margin-left: 5px;
-    font-size: 12px;
+  font-weight: normal;
+  margin-left: 5px;
+  font-size: 12px;
 }
 
 .personal p {
-    line-height: 1;
+  line-height: 1;
 }
 
 header {
-    display: flex;
+  display: flex;
 }
 
 .hobby ul {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 h1 {
-    font-size: 90px;
-    color: #444440;
+  font-size: 90px;
+  color: #444440;
 }
 
 .general {
-    display: flex;
-    flex-wrap: wrap;
-    border-left: 8px solid #444440;
-    padding: 0 30px;
-    margin-bottom: 100px;
-    margin-left: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 8px solid #444440;
+  padding: 0 30px;
+  margin-bottom: 100px;
+  margin-left: 5vw;
 }
 
 h2 {
-    font-size: 20px;
-    color: #444440;
+  font-size: 20px;
+  color: #444440;
 }
 
 h3 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 ul,
 p {
-    line-height: 2;
-    font-size: 12px;
+  line-height: 2;
+  font-size: 12px;
 }
 
 a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #444440;
+  text-decoration: none;
+  font-weight: bold;
+  color: #444440;
 }
 
 a:hover {
-    color: black;
+  color: black;
 }
 
 .first {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .second {
-    display: flex;
-    flex-direction: column;
-    margin-left: 90px;
-    margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  margin-bottom: 0;
 }
 
 h4 {
-    font-size: 13px;
-    margin-top: 0px;
+  font-size: 13px;
+  margin-top: 0px;
 }
 
 h3,
 h4 {
-    color: #444440;
+  color: #444440;
 }
 
 div {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 p {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .courses {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .courses ul {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .courses h2 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .general ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 h2 {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 @media screen and (max-width:768px) {
-    .second {
-        margin-left: 0;
-    }
-    h1 {
-        font-size: 10vw;
-        margin-top: 0;
-        display: flex;
-        align-items: center;
-    }
-    header {
-        justify-content: center;
-    }
+  .second {
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 10vw;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
+  header {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width:520px) {
-    header {
-        flex-wrap: wrap;
-    }
-    h1 br {
-        display: none;
-    }
+  header {
+    flex-wrap: wrap;
+  }
+  h1 br {
+    display: none;
+  }
 }
