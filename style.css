@@ -135,6 +135,9 @@ h2 {
   header {
     justify-content: center;
   }
+  img {
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width:520px) {
