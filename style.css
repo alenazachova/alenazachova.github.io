@@ -148,3 +148,9 @@ h2 {
     display: none;
   }
 }
+
+a:hover,
+a:active,
+a:visited {
+  color: lightslategray;
+}
