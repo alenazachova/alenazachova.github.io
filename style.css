@@ -1,17 +1,23 @@
 body {
   width: 100%;
-  max-width: 950px;
+  max-width: 860px;
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
 }
+header {
+  width:100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:100px;
 
+}
 img {
   width: 210px;
   height: 210px;
   border-radius: 50%;
-  margin: 30px;
-  margin-left: 80px;
-  margin-top: 65px;
 }
 
 h3 span {
@@ -24,26 +30,34 @@ h3 span {
   line-height: 1;
 }
 
-header {
-  display: flex;
-}
-
 .hobby ul {
   margin-top: 0;
 }
 
 h1 {
-  font-size: 90px;
   color: #444440;
+  font-size:45px;
+}
+.sipka {
+  font-size: 30px;
 }
 
+.swipe {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 14px;
+}
+
+.about {
+width: 450px;
+}
 .general {
+  margin-top:25px;
   display: flex;
   flex-wrap: wrap;
   border-left: 8px solid #444440;
-  padding: 0 30px;
+  justify-content: space-between;
+  padding: 0 50px;
   margin-bottom: 100px;
-  margin-left: 5vw;
 }
 
 h2 {
@@ -94,7 +108,6 @@ h4 {
 }
 
 div {
-  display: flex;
   flex-direction: row;
 }
 
@@ -127,9 +140,7 @@ h2 {
     margin-left: 0;
   }
   h1 {
-    font-size: 10vw;
-    margin-top: 0;
-    display: flex;
+    font-size: 3vw;
     align-items: center;
   }
   header {
@@ -153,5 +164,4 @@ a:hover,
 a:active,
 a:visited {
   color: lightslategray;
-  text-decoration: underline;
 }
