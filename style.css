@@ -12,7 +12,18 @@ header {
   flex-direction: column;
   align-items: center;
   margin-top:100px;
-
+  cursor: pointer;
+  height: 100vh;
+}
+.pre-footer {
+  width:100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom:30px;
 }
 img {
   width: 210px;
@@ -57,7 +68,7 @@ width: 450px;
   border-left: 8px solid #444440;
   justify-content: space-between;
   padding: 0 50px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -89,14 +100,22 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
-
+.pre-sipka {
+  font-size:30px;
+}
+.pre-swipe {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size:12px;
+}
 .second {
   display: flex;
   flex-direction: column;
-  margin-left: 90px;
   margin-bottom: 0;
 }
 
+footer {
+  float: right;
+}
 h4 {
   font-size: 13px;
   margin-top: 0px;
