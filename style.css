@@ -59,7 +59,8 @@ h1 {
 }
 
 .about {
-width: 450px;
+width:100%;
+max-width: 450px;
 padding:15px;
 }
 .general {
