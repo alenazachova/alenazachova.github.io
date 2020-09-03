@@ -1,3 +1,5 @@
+
+/*custom*/
 body {
   width: 100%;
   max-width: 860px;
@@ -53,7 +55,7 @@ h1 {
   color: #444440;
   font-size:45px;
 }
-.sipka {
+.arrow {
   font-size: 30px;
 }
 
@@ -106,7 +108,7 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
-.pre-sipka {
+.pre-arrow {
   font-size:30px;
 }
 
