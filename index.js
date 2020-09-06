@@ -1,4 +1,4 @@
-console.log("Alena Zachová");
+console.log("Alena Zachová - CV");
 
 
 $('a.sipka, .swipe').on('click', function(e) {
