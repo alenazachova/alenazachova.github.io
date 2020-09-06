@@ -59,7 +59,7 @@ p {
 
 ul,
 p {
-  line-height: 2;
+  line-height: 2em;
   font-size: 12px;
 }
 svg {
