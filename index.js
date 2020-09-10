@@ -1,25 +1,25 @@
-console.log("Alena Zachová - CV");
+document.addEventListener('DOMContentLoaded', (event) => {
+    //the event occurred
+    console.log("Alena Zachová - CV");
 
+    document.querySelector(".intro__mouse-opposite").addEventListener("click", (e) => {
+        e.preventDefault();
+        const offsetTop = 0;
 
-$('a.sipka, .swipe').on('click', function(e) {
-  let cil = $(this).attr('href');
-  let rychlost = 1000;
-  let menu = $('.hore');
+        scroll({
+            top: offsetTop,
+            behavior: "smooth"
+        });
+    });
 
-  $("html, body").stop().animate(
-      { scrollTop: $(cil).offset().top},
-  rychlost);
+    document.querySelector(".intro__mouse").addEventListener("click", (e) => {
+        e.preventDefault();
+        const href = document.querySelector(".intro__mouse").getAttribute("href");
+        const offsetTop = document.querySelector(href).offsetTop;
 
-  e.preventDefault();
-});
-
-$('a.pre-sipka, .pre-swipe').on('click', function(e) {
-  let cil = $(this).attr('href');
-  let rychlost = 1000;
-  let menu = $('.pre-footer');
-
-  $("html, body").stop().animate(
-      { scrollTop: $(cil).offset().top},
-  rychlost);
-
-  e.preventDefault();
+        scroll({
+            top: offsetTop,
+            behavior: "smooth"
+        });
+    });
+})
