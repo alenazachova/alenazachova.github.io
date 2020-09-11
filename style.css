@@ -89,6 +89,7 @@ p {
 strong {
     font-weight: 600;
     color: #444440;
+    font-size: 12px;
 }
 
 ul,
@@ -195,6 +196,10 @@ a:hover .icons * {
 
 .icons * {
     transition: all 250ms;
+}
+
+.txt-center {
+    text-align: center;
 }
 
 
