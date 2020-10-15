@@ -156,6 +156,18 @@ a:hover .icons * {
   border-radius: 25px;
 }
 
+@media only screen and (max-width: 1920px) {
+  .icon-scroll {
+    margin-top: -118px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .icon-scroll {
+    margin-top: -30px;
+  }
+}
+
 .icon-scroll:before {
   content: '';
   width: 8px;
