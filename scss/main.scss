@@ -45,7 +45,7 @@ blockquote {
 }
 
 .actual {
-    padding-left: 15px;
+    padding-left: 25px;
     padding-top: 1px;
     padding-bottom: 1px;
     border: solid 2px #444440;
@@ -173,6 +173,10 @@ a:hover .icons * {
     {
         margin-top: -30px;
     }
+    @media only screen and (max-width: 568px)
+    {
+        margin-top: -70px;
+    }
 }
 
 .icon-scroll:before {
@@ -269,9 +273,9 @@ a:hover .icons * {
 
 .space-accomplish {
     margin-left: 118px;
-    @media only screen and (max-width: 713px) {
-        margin-left: 0px;
-    }
+        @media only screen and (max-width: 713px) {
+            margin-left: 0px;
+        }
 }
 
 @media only screen and (max-width: 619px) {

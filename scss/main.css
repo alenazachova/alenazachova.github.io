@@ -52,7 +52,7 @@ blockquote {
 }
 
 .actual {
-  padding-left: 15px;
+  padding-left: 25px;
   padding-top: 1px;
   padding-bottom: 1px;
   border: solid 2px #444440;
@@ -203,6 +203,12 @@ a:hover .icons * {
 @media only screen and (max-width: 767px) {
   .icon-scroll {
     margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .icon-scroll {
+    margin-top: -70px;
   }
 }
 
