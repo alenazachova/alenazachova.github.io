@@ -52,6 +52,11 @@ blockquote {
     box-shadow: 15px 15px 0 0 #444440;
     margin-bottom: 30px;
     margin-right: 20px;
+    h3 span {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
     @media only screen and (max-width: 631px) {
         margin-right: 0;
     }
