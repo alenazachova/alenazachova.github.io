@@ -51,6 +51,23 @@ blockquote {
           box-shadow: 15px 15px 0 0 #444440;
 }
 
+.actual {
+  padding-left: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: solid 2px #444440;
+  -webkit-box-shadow: 15px 15px 0 0 #444440;
+          box-shadow: 15px 15px 0 0 #444440;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 631px) {
+  .actual {
+    margin-right: 0;
+  }
+}
+
 h1 {
   color: #444440;
   font-size: 45px;
@@ -73,6 +90,18 @@ h2 span {
   font-weight: normal;
   margin-left: 5px;
   font-size: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  h3 span,
+  h2 span {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 h4 {
@@ -253,7 +282,7 @@ a:hover .icons * {
 }
 
 .space-sites {
-  margin-left: 97px;
+  margin-left: 104px;
 }
 
 @media only screen and (max-width: 619px) {
@@ -266,9 +295,9 @@ a:hover .icons * {
   margin-left: 118px;
 }
 
-@media only screen and (max-width: 619px) {
+@media only screen and (max-width: 713px) {
   .space-accomplish {
-    margin-left: 50px;
+    margin-left: 0px;
   }
 }
 
