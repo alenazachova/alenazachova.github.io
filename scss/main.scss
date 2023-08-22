@@ -11,6 +11,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+button {
+    background: #ffffff;
+    border: 1px solid #444440;
+}
+
 header {
     width: 100%;
     max-width: 400px;
@@ -37,6 +42,10 @@ blockquote {
     width: 50%;
     max-width: 500px;
     margin-left: 0;
+
+    @media only screen and (max-width: 631px) {
+        width: 80%;
+    }
 }
 
 .shadow {
@@ -47,16 +56,18 @@ blockquote {
 .actual {
     padding-left: 25px;
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 10px;
     border: solid 2px #444440;
     box-shadow: 15px 15px 0 0 #444440;
     margin-bottom: 30px;
     margin-right: 20px;
+
     h3 span {
         display: flex;
         flex-wrap: wrap;
         margin-left: 0;
     }
+
     @media only screen and (max-width: 631px) {
         margin-right: 0;
     }
@@ -83,6 +94,7 @@ h2 span {
     font-weight: normal;
     margin-left: 5px;
     font-size: 12px;
+
     @media only screen and (max-width: 767px) {
         margin-left: 0;
         display: flex;
@@ -165,12 +177,12 @@ a:hover .icons * {
     margin-top: -10px;
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.65);
     border-radius: 25px;
+
     @media only screen and (max-width: 1920px) {
         margin-top: -118px;
     }
 
-    @media only screen and (max-width: 568px)
-    {
+    @media only screen and (max-width: 568px) {
         margin-top: -100px;
     }
 }
@@ -250,6 +262,10 @@ a:hover .icons * {
 .university {
     margin-top: 15px;
 }
+#name {
+    font-weight: bold;
+    font-size: 0.9em;
+}
 
 .swipe {
     font-family: 'Nothing You Could Do', cursive;
@@ -259,23 +275,26 @@ a:hover .icons * {
 .space {
     margin-left: 80px;
 }
+
 .space-small {
     margin-left: 70px;
 }
 
 
 .space-sites {
-    margin-left:104px;
-        @media only screen and (max-width: 619px) {
-            margin-left: 50px;
-        }
+    margin-left: 104px;
+
+    @media only screen and (max-width: 619px) {
+        margin-left: 50px;
+    }
 }
 
 .space-accomplish {
     margin-left: 118px;
-        @media only screen and (max-width: 811px) {
-            margin-left: 0px;
-        }
+
+    @media only screen and (max-width: 811px) {
+        margin-left: 0px;
+    }
 }
 
 @media only screen and (max-width: 619px) {
@@ -283,6 +302,7 @@ a:hover .icons * {
         display: block;
         margin-left: 50px;
     }
+
     .without-space {
         margin-left: 0;
         display: inline;
@@ -301,7 +321,7 @@ a:hover .icons * {
 @media only screen and (max-width: 767px) {
     .general {
         flex-wrap: wrap;
-        padding: 0 30px;
+        padding: 0 20px;
     }
 }
 
@@ -310,8 +330,13 @@ a:hover .icons * {
     flex-direction: column;
     flex: 1 0 40%;
     padding-right: 16px;
+
     @media only screen and (max-width: 630px) and (min-width: 455px) {
         margin-right: 30px;
+    }
+
+    @media only screen and (max-width: 568px) {
+        flex: 1 0 100%;
     }
 }
 
@@ -337,6 +362,10 @@ a:hover .icons * {
     flex-direction: column;
     margin-bottom: 0;
     flex: 1 0 40%;
+
+    @media only screen and (max-width: 568px) {
+        flex: 1 0 100%;
+    }
 }
 
 .courses {
@@ -374,6 +403,7 @@ a:hover .icons * {
     0% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
         -webkit-transform: translateY(32px);
@@ -385,6 +415,7 @@ a:hover .icons * {
     0% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
         -webkit-transform: translateY(32px);
@@ -396,6 +427,7 @@ a:hover .icons * {
     0% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
         -webkit-transform: translateY(-32px);
@@ -407,6 +439,7 @@ a:hover .icons * {
     0% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
         -webkit-transform: translateY(-32px);
@@ -432,12 +465,15 @@ footer p {
     .second {
         margin-left: 0;
     }
+
     h1 {
         align-items: center;
     }
+
     header {
         justify-content: flex-start;
     }
+
     img {
         margin-left: 0px;
     }
@@ -447,9 +483,11 @@ footer p {
     header {
         flex-wrap: wrap;
     }
+
     header blockquote {
         width: 65%;
     }
+
     h1 {
         font-size: 30px;
     }

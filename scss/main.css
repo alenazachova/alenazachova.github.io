@@ -10,6 +10,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+button {
+  background: #ffffff;
+  border: 1px solid #444440;
+}
+
 header {
   width: 100%;
   max-width: 400px;
@@ -45,6 +50,12 @@ blockquote {
   margin-left: 0;
 }
 
+@media only screen and (max-width: 631px) {
+  blockquote {
+    width: 80%;
+  }
+}
+
 .shadow {
   border: solid 2px #444440;
   -webkit-box-shadow: 15px 15px 0 0 #444440;
@@ -54,7 +65,7 @@ blockquote {
 .actual {
   padding-left: 25px;
   padding-top: 1px;
-  padding-bottom: 1px;
+  padding-bottom: 10px;
   border: solid 2px #444440;
   -webkit-box-shadow: 15px 15px 0 0 #444440;
           box-shadow: 15px 15px 0 0 #444440;
@@ -280,6 +291,11 @@ a:hover .icons * {
   margin-top: 15px;
 }
 
+#name {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
 .swipe {
   font-family: 'Nothing You Could Do', cursive;
   font-size: 14px;
@@ -341,7 +357,7 @@ a:hover .icons * {
   .general {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 0 30px;
+    padding: 0 20px;
   }
 }
 
@@ -362,6 +378,14 @@ a:hover .icons * {
 @media only screen and (max-width: 630px) and (min-width: 455px) {
   .first {
     margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .first {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
   }
 }
 
@@ -394,6 +418,14 @@ a:hover .icons * {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 40%;
           flex: 1 0 40%;
+}
+
+@media only screen and (max-width: 568px) {
+  .second {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+  }
 }
 
 .courses {
