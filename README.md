@@ -1,5 +1,5 @@
 # My coding CV
-In this project I really tried to use **HTML** & **CSS** & **Javascript**.
+In this project I used **HTML** & **CSS** & **Javascript**.
 
 What you will see in my CV?
 
