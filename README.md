@@ -11,4 +11,4 @@ What you will see in my CV?
 * [x] Live projects
 * [ ] and more ...
 
-If you cannot wait here is the [THE best snake game ever](https://majestic-monstera-e7b0b8.netlify.app/)
+If you cannot wait here is the [THE best snake game ever](https://majestic-monstera-e7b0b8.netlify.app/ "Snake")
